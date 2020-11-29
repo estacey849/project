@@ -1,6 +1,30 @@
 Tic Tac Toe
 Who goes First Random
 
+# randomally picks if X or O goes first
+
+first= random.radiant(X,O)
+print(str(first))
+if first==x:
+    print("player_one will go first.")
+elif first==o:
+    print("player_two will go first.")
+
+
+
+board = ["-", "-", "-",
+         "-", "-", "-",
+         "-", "-", "-"]
+    
+# is the game over
+
+game_not_over= True
+
+# winner
+winner=None
+
+# First player selected randomly
+
 first= random.radiant(X,O)
 print(str(first))
 if first==x:
