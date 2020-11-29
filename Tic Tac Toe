@@ -1,0 +1,9 @@
+Tic Tac Toe
+Who goes First Random
+
+first= random.radiant(X,O)
+print(str(first))
+if first==x:
+    print("player_one will go first.")
+elif first==o:
+    print("player_two will go first.")
